@@ -24,12 +24,16 @@ h1 span {
 }
 
 .cards-section .right {
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 .card .tile-image {
   float: left;
   margin-right: 50px;
+}
+
+.card h2, .card p {
+  font-size: 0.95rem;
 }
 
 footer {
@@ -98,5 +102,9 @@ footer {
   .card {
     display: flex;
     flex-direction: column;
+  }
+
+  .card h2, .card p {
+    font-size: 1rem;
   }
 }
