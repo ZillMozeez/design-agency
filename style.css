@@ -43,11 +43,7 @@ footer {
 }
 
 @media (min-width: 319px) and (max-width: 480px){
-  .main {
-    display: block;
-  }
-
-  .main .logo {
+   .main .logo {
     height: 40%;
     width: 40%;
   }
@@ -69,8 +65,8 @@ footer {
     padding-top: 30px;
   }
 
-  .card .tile-image {
-    margin-right: 0;
+  .card p {
+    text-align: justify;
   }
 }
 
@@ -83,10 +79,6 @@ footer {
   .cards-section .right {
     margin-left: 50px;
   }
-
-  .card .tile-image {
-    margin-right: 0;
-  }  
 }
 
 @media (min-width: 901px) and (max-width: 1200px){
